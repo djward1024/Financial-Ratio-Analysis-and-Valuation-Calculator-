@@ -1,5 +1,5 @@
 ## This Python file is intended to create detailed financial ratio analysis, valuation metrics, and DCF calculations for a list of stocks via user-input. This will be exported into an excel file which displays the results in a table with the selected stocks in the located in the colums and the financial metrics and valuation metrics located in the rows. The goal of this script is to minimize human inputs to create seamless analysis. ##
-## This script will use zero copying and pasting for learning purposes ##
+
 
 ## ----- Establish Libraries and Key Variables ----- ##
 
@@ -16,7 +16,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ## API key ##
 
-API_KEY = "1YKzdFA4grSB7HPSQCraS3nEVvFOWhmi"
+API_KEY = "xxx"
 BASE_URL = "https://financialmodelingprep.com/stable/"
 
 ## ----- Live Risk-Free Rate Fetcher ----- ##
